@@ -7,6 +7,8 @@ V okviru poletnega dela na Inštitutu Jožef Stefan sem obravnaval delovanje sen
 
 V nadaljevanju je kronološko opisan potek poskusov izboljšav ter interpretacije meritev.
 
+Vse meritve so, če ni drugače napisano, opravljene s frekvenco 5Hz v časovnem okvirju 1.5s.
+
 ### 1. Frekvenca delovanja
 Proizvajalec navaja 100Hz kot maksimalno frekvenco zajemanja meritev. Izkaže se, da vezje, zaradi hitrosti polnjenja in praznjenja kondenzatorja, ne zmore opravljati meritev bistveno hitreje kot z 10Hz.
 
@@ -16,7 +18,7 @@ Proizvajalec navaja 100Hz kot maksimalno frekvenco zajemanja meritev. Izkaže se
 
 ![Poravnane meritve (vse)](aligned_all.png)
 
-Dodatno se je pokazalo tudi, da vsaka prva meritev (na zgornji sliki modra) zelo močno odstopa od vseh ostalih. To zato kar vedno izbrišemo:
+Ugotovili smo tudi, da vsaka prva meritev (na zgornji sliki modra) zelo močno odstopa od vseh ostalih. To zato kar vedno izbrišemo:
 
 ![Poravnane meritve (brez prve)](aligned.png)
 
@@ -25,7 +27,7 @@ Vrhovi posameznih meritev še vedno kar precej odstopajo eden od drugega, kar pa
 
 ![Ventilator](aligned_fan.png)
 
-Še boljše rezultate pa dobimo, če senzor postavimo v popolno temo:
+Še boljše rezultate pa dobimo, če senzor in ventilator postavimo v popolno temo:
 
 ![Tema](aligned_fan_dark.png)
 
